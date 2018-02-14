@@ -48,7 +48,7 @@ const DISH = {
 })
 export class DishdetailComponent implements OnInit {
 
-dish :Dish = DISH;
+dish = DISH;
   constructor() { }
 
   ngOnInit() {
